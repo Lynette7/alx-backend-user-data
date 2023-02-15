@@ -77,7 +77,3 @@ profile_logged(session_id: str) -> None.
 log_out(session_id: str) -> None.
 reset_password_token(email: str) -> str.
 update_password(email: str, reset_token: str, new_password: str) -> None.
-Copy the following code at the end of the main module:
-EMAIL = "guillaume@holberton.io"
-PASSWD = "b4l0u"
-NEW_PASSWD = "t4rt1fl3tt3"
